@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+*.unity linguist-vendored
+*.asset linguist-vendored
+*.mat linguist-vendored
+*.prefab linguist-vendored
+*.meta linguist-vendored
+*.controller linguist-vendored
