@@ -1,32 +1,34 @@
-﻿using UnityEditor;
-using Archura.TerrainEngine.Preview;
+﻿#if UNITY_EDITOR
+using UnityEditor;
 using UnityEngine;
 
-
-namespace Archura.TerrainEngine.EditorTools
+namespace Archura.TerrainEngine.Preview.EditorTools
 {
     [CustomEditor(typeof(MapPreview))]
     public class MapPreviewEditor : Editor
     {
         public override void OnInspectorGUI()
         {
-            MapPreview mapPreview = (MapPreview)target;
+            MapPreview preview = (MapPreview)target;
 
-            if (DrawDefaultInspector()) 
+            EditorGUI.BeginChangeCheck();
+            DrawDefaultInspector();
+            bool changed = EditorGUI.EndChangeCheck();
+
+            EditorGUILayout.Space(6);
+
+            GUI.backgroundColor = new Color(0.3f, 0.8f, 0.4f);
+            if (GUILayout.Button("Generate Preview", GUILayout.Height(32)))
             {
-                if (mapPreview.autoUpdate)
-                {
-                    mapPreview.DrawMapInEditor();
-                }
+                preview.DrawMapInEditor();
             }
-            
-            GUILayout.Space(10); 
+            GUI.backgroundColor = Color.white;
 
-            //Button
-            if (GUILayout.Button("Generate Map"))
+            if (changed && preview.autoUpdate)
             {
-                mapPreview.DrawMapInEditor();
-            }            
+                preview.DrawMapInEditor();
+            }
         }
     }
 }
+#endif

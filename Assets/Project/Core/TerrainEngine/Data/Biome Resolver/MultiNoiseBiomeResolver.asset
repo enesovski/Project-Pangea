@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad6288198f1432989653c21e86f11c3, type: 3}
+  m_Name: MultiNoiseBiomeResolver
+  m_EditorClassIdentifier: TerrainEngine::Archura.TerrainEngine.BiomeModule.MultiNoiseBiomeResolver
+  biomes:
+  - {fileID: 11400000, guid: 7dc4aefccdcf995478a9374662874a37, type: 2}
+  - {fileID: 11400000, guid: e317e90ab17a4f549b5e6e1b3ef32bcf, type: 2}
+  - {fileID: 11400000, guid: 87a5de390f0330f4aa4a765ea86b8abf, type: 2}
+  - {fileID: 11400000, guid: eec9fcb0b18b01b44916d99eb6c49a25, type: 2}
+  - {fileID: 11400000, guid: df63a4c9b054b9346aaf05c6494b1b78, type: 2}
+  - {fileID: 11400000, guid: f9f682265c951dd4984248f87a6f310d, type: 2}
+  - {fileID: 11400000, guid: 88cf1261139450844a6ade68437351f8, type: 2}
+  - {fileID: 11400000, guid: d75c3fc08a1d49243b5b6941022c3ec0, type: 2}
+  - {fileID: 11400000, guid: 9370f00e861d0424f93e5e5bbe7ea71d, type: 2}
+  - {fileID: 11400000, guid: f3398b6cf3044554dac85897f087031f, type: 2}
+  - {fileID: 11400000, guid: d3cd2014d83419c418a94db9b8daddf5, type: 2}
+  - {fileID: 11400000, guid: be6740f437578f044a4b7ce2684289c5, type: 2}
+  - {fileID: 11400000, guid: 311111868b3fdf245a8cbabcdaa3a7e5, type: 2}
+  - {fileID: 11400000, guid: 3850b4d5119844947bc26f29428129b3, type: 2}
+  - {fileID: 11400000, guid: 448a6b0214fbd7747b0b5d6e989d92fe, type: 2}
+  - {fileID: 11400000, guid: e8fc1e1227188d24e938183d29330738, type: 2}
+  - {fileID: 11400000, guid: ef675b2ebcb166047b19a7124dc9cf9c, type: 2}
+  - {fileID: 11400000, guid: f0c2ff5f1e13b1c49a5b35a9e1a70f82, type: 2}
+  blendRadius: 0.02
+  temperatureWeight: 1
+  moistureWeight: 1
+  continentalnessWeight: 1
+  erosionWeight: 1
+  weirdnessWeight: 0.5
