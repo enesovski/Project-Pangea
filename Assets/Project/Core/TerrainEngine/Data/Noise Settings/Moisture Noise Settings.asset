@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7788016bd2b14911a63d27055bbaa933, type: 3}
   m_Name: Moisture Noise Settings
   m_EditorClassIdentifier: TerrainEngine::Archura.TerrainEngine.Noise.NoiseSettings
-  seed: 42
-  noiseType: 0
-  frequency: 0.006
+  seed: 1337
+  noiseType: 1
+  frequency: 0.015
   fractalType: 1
   octaves: 4
   lacunarity: 2

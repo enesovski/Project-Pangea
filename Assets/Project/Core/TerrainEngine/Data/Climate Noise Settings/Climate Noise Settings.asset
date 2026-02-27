@@ -17,4 +17,4 @@ MonoBehaviour:
   moistureNoise: {fileID: 11400000, guid: ee917089627e7e446b9a1068094c194f, type: 2}
   continentalnessNoise: {fileID: 11400000, guid: 06112ee1601bf924e90089b3f94aa11e, type: 2}
   erosionNoise: {fileID: 11400000, guid: 6e8505d7d49f5e147affb130278d9075, type: 2}
-  weirdnessNoise: {fileID: 0}
+  weirdnessNoise: {fileID: 11400000, guid: 2b10439dcde23604b86fdc59ded865bd, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7788016bd2b14911a63d27055bbaa933, type: 3}
   m_Name: Continentalness Noise Settings
   m_EditorClassIdentifier: TerrainEngine::Archura.TerrainEngine.Noise.NoiseSettings
-  seed: 42
+  seed: 1337
   noiseType: 1
   frequency: 0.003
   fractalType: 1
