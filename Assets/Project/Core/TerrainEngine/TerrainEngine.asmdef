@@ -1,0 +1,16 @@
+{
+    "name": "TerrainEngine",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e3d189db4d44d494d9c86f73fc42a84a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
